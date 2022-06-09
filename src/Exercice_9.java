@@ -46,6 +46,8 @@ public class Exercice_9 {
             case 12:
                 System.out.println("Month is December");
                 break;
+            default:
+                System.out.println("This month doesn't exists.");
         }
     }
 }

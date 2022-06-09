@@ -25,3 +25,14 @@ public class Exercice_7 {
 
     }
 }
+
+// boolean isPositive = nombre > 0;
+// boolean isEven = nombre % 2 == 0;
+//
+// String estPositif = isPositif?"positif":"negatif";
+// String estPair = isEven?"pair":"impair";
+//
+// if(nombre == 0) {
+// System.out.println("Le nombre est zero");}
+// else if {
+// System.out.printf("Le nombre %d est %s et %s", nombre, estPositif, estPair);}
