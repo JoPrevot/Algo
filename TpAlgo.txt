@@ -56,3 +56,18 @@ b = tmp
 Afficher "a=",a
 Afficher "b=",b
 Afficher "c=",c
+
+Exercice_7
+
+"Ecrivez un programme Java qui lit un nombre et indique s'il est positif, négatif ou s'il vaut zéro et s'il est pair ou impair.
+Exemple d'exécution:
+Entrez un nombre entier: 5
+Le nombre est positif et impair
+Entrez un nombre entier: -4
+Le nombre est négatif et pair
+Entrez un nombre entier: 0
+Le nombre est zéro (et il est pair)"
+
+Entrer un nombre
+Indiquer s'il est +, - ou 0
+Indiquer s'il est pair ou impair
