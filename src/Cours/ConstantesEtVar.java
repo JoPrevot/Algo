@@ -1,3 +1,5 @@
+package Cours;
+
 public class ConstantesEtVar {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package Exo;
+
 public class Exercice_4 {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package Exo;
+
 import java.util.Scanner;
 
 public class Exercice_12 {
