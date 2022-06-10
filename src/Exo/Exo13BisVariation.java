@@ -2,7 +2,7 @@ package Exo;
 
 import java.util.Scanner;
 
-public class Exercice_13Bis {
+public class Exo13BisVariation {
     public static void main(String[] args) {
 
         // On veut demander à l'utilisateur d'entrer une adresse mail et un mdp
@@ -34,29 +34,30 @@ public class Exercice_13Bis {
         int totalAttempt = 5;
 
         for (int i = totalAttempt; i >= 0; i --)
+        {
+            System.out.println("Entrez votre email");
+
+            EmailATester = input.nextLine();
+
+            System.out.println("Entrez votre mot de passe");
+
+            passwordATester = input.nextLine();
+
+            if ((!EmailATester.equals(email)) || (!passwordATester.equals(password)))
             {
-                System.out.println("Entrez votre email");
+                System.out.printf("Identifiants incorrect, il vous reste %d essais : \n",i);
+            }
+            else
+            {
+                System.out.println("Bienvenu dans votre espace client.");
+                break;
+            }
 
-                EmailATester = input.nextLine();
-
-                System.out.println("Entrez votre mot de passe");
-
-                passwordATester = input.nextLine();
-
-                if ((EmailATester.equals(email)) && (passwordATester.equals(password)))
-                {
-                    System.out.println("Bienvenu dans votre espace client.");
-                    break;
-                }
-
-                System.out.printf("Identifiants incorrect, il vous reste %d essais . \n",i);
-
-                if(i == 0)
-                {
-                    System.out.println("");
-                    System.out.printf("Vous avez saisi des mauvais identifiants %d fois, votre compte est bloque.",totalAttempt);
-                    break;
-                }
+            if(i == 0)
+            {
+                System.out.printf("Vous avez saisi des mauvais identifiants %d fois, votre compte est bloque.",totalAttempt);
+                break;
             }
         }
     }
+}
