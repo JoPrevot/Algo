@@ -8,9 +8,9 @@ public class Exercice_11 {
 
         System.out.println("Entrez n'importe quel nombre : ");
 
-        int factorielle = input.nextInt();
+        long factorielle = input.nextLong();
 
-        var result = 1;
+        long result = 1;
 
         if(factorielle < 0)
         {
@@ -24,9 +24,9 @@ public class Exercice_11 {
 
         else
         {
-        for(int i = 1; i <= factorielle ; i = i + 1)
+        for(long i = 1; i <= factorielle ; i = i + 1)
         {
-            result = result * i;
+            result = (result * i);
         }
             System.out.printf("La factorielle de %d est %d",factorielle,result);
         }

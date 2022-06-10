@@ -10,12 +10,13 @@ public class Exercice_12 {
 
         int number = input.nextInt();
 
-        var result = number;
+        System.out.println("Les dix nombres suivants sont :");
 
-        for(var i = 1; i <= 10; i++) {
-            result = number + i;
-            System.out.printf("Les dix nombres suivants sont : %d \n",result);
-        }
+        for(var i = number +1 ; i <= number + 10 ; i++) {
+
+            System.out.printf(" %d \n",i);
+
+            }
         }
    }
 
