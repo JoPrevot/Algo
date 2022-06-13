@@ -41,7 +41,7 @@ public class Exercice_16 {
         }
         if (sum == 0)
         {
-            System.out.println("la note recherche n'existe pas.");
+            System.out.println("la note recherchee n'existe pas.");
         }
         else {
             System.out.printf("La note recherchee est dans le tableau %d fois.",sum);
