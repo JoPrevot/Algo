@@ -16,8 +16,7 @@ public class TableauxDynamiques {
         langagesDeProgrammation.add("Visual Basic 6.0");    //4
 
         System.out.println("Taille du tableau : "+langagesDeProgrammation.size());
-        System.out.printf("langagesDeProgrammation[%d] : %s\n",
-                0,langagesDeProgrammation.get(0));
+        System.out.printf("langagesDeProgrammation[%d] : %s\n",0,langagesDeProgrammation.get(0));
 
         System.out.printf("langagesDeProgrammation[%d] %s\n",1,
                 langagesDeProgrammation.get(1));

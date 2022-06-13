@@ -16,17 +16,19 @@ public class Exercice_20 {
         int sum1 = 0;
 
         for (int i = 0 ; i < table.length ; i++)
-        {      for (int j = 0; j < table[i].length; j++)
         {
+            for (int j = 0; j < table[i].length; j++)
+            {
             System.out.printf("matrice [%d] [%d] : ",i,j);
             table[i][j]=input.nextInt();
-            if (j == i || i + j == 3)
-            {
+
+                if (j == i || i + j == table.length-1)
+                {
                 sum = sum + (table[i][j]);
+                }
             }
         }
 
-        }
         System.out.println("Affichage de tout le tableau");
         for (int i = 0; i < table.length; i++)
         {
