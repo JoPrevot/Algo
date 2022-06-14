@@ -39,7 +39,8 @@ public class Exercice_21 {
                 break;
             }
             else {
-                if (!table.contains(languageToDelete)) {
+                if (!table.contains(languageToDelete))
+                {
                     System.out.println("Le langage choisi n'existe pas.");
                 }
                 table.remove(languageToDelete);
