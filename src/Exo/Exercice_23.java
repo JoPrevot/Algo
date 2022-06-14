@@ -26,7 +26,7 @@ public class Exercice_23 {
         for (int i = 0; i <= 6 ; i++)
         {
             System.out.printf
-                    ("Veuillez entrer le numero correspondant à %s (entre 1 et 7) : ",days.get(i));
+                    ("Veuillez entrer le numero correspondant a %s (entre 1 et 7) : ",days.get(i));
 
             number = input.nextInt();
 
@@ -37,7 +37,7 @@ public class Exercice_23 {
         System.out.println(days);
         System.out.println(numbers);
 
-        LinkedHashMap<String, Integer> Week = new LinkedHashMap<>();
+        LinkedHashMap< Integer, String> Week = new LinkedHashMap<>();
 
         for (int i = 0; i < days.size(); i++)
         {
@@ -45,10 +45,18 @@ public class Exercice_23 {
 
           day = days.get(i);
 
-          Week.put(day,number);
+          Week.put(number,day);
 
         }
         System.out.println();
         System.out.println(Week);
+
+        System.out.println("Saississez un numéro : ");
+
+        var key = input.nextInt();
+
+        var keyDay = Week.get(key);
+
+        System.out.printf("Le jour de la semaine dont le nombre est %d est %s : ",key,keyDay);
     }
 }
