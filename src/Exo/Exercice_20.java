@@ -13,7 +13,6 @@ public class Exercice_20 {
         int [][] table = new int [4][4];
 
         int sum = 0;
-        int sum1 = 0;
 
         for (int i = 0 ; i < table.length ; i++)
         {

@@ -20,7 +20,6 @@ public class Exercice_22 {
                 "philemon.turion@gmail.com",
                 "jules.cesar@hotmail.fr"};
 
-        var mail = "";
         var sumGmail = 0 ;
         var sumYahoo = 0;
         var sumHotmail = 0;
@@ -47,9 +46,9 @@ public class Exercice_22 {
 
             // Pourcentage
 
-        double gmailPercent = (sumGmail/8.0)*100 ;
-        double yahooPercent = (sumYahoo/8.0)*100 ;
-        double hotmailPercent = (sumHotmail/8.0)*100 ;
+        double gmailPercent = (sumGmail/(double)table.length)*100 ;
+        double yahooPercent = (sumYahoo/(double)table.length)*100 ;
+        double hotmailPercent = (sumHotmail/(double)table.length)*100 ;
 
         System.out.println("Le pourcentage d'adresse email en gmail est de : " +gmailPercent +" % "
                 +" celui de Yahoo est de " +yahooPercent +" %"
