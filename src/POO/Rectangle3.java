@@ -55,4 +55,13 @@ public class Rectangle3 {
     {
         return 2 * (longueur + largeur);
     }
+
+    // toString : permet de définir une méthode pour afficher tout l'objet
+
+    public String toString() {
+        return String.format("[ Longueur : %f\nLargeur : %f\nSurface : %f\nPerimètre %f" +
+                        " ]",
+                this.longueur, this.largeur, this.calculDeLaSurface(), this.calculDuPerimetre());
+    }
+
 }

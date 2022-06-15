@@ -65,6 +65,8 @@ public class Main {
         System.out.println(rect.getLargeur());
         System.out.println(rect.getLongueur());
 
+        System.out.println(rect);
+
 
     }
 }
