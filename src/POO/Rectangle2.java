@@ -1,5 +1,9 @@
 package POO;
 
+// Quand on ne fournit pas un constructeur
+// Le compilateur Java invoque un constructeur spécial appelé
+// "Le constructeur par défaut par défaut" => tout est NULL ou 0
+
 public class Rectangle2 {
 
     // Une donnée <private> restreint l'accès à cette donnée (en lecture et en écriture)

@@ -59,6 +59,11 @@ public class Main {
         System.out.println("La largeur : "+terrain.getLargeur());
         System.out.println("Surface : "+terrain.calculDeLaSurface());
         System.out.printf("Perimetre : %.1f",terrain.calculDuPerimetre());
+        System.out.println("");
+
+        Rectangle3 rect = new Rectangle3();
+        System.out.println(rect.getLargeur());
+        System.out.println(rect.getLongueur());
 
 
     }

@@ -15,6 +15,14 @@ public class Rectangle3 {
         this.largeur = largeur;
     }
 
+    // Surcharge : possibilité d'avoir au sein d'une classe  plusieurs méthodes (constructeur) avec
+    // le même nom mais différentes signatures
+
+    public Rectangle3 ()
+    {
+        longueur = 10;
+        largeur = 5;
+    }
 
     public double getLongueur()
     {
