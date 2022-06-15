@@ -1,24 +1,30 @@
 package POO;
 
 public class ProgrammationProcedurale {
+
    // Requirement pour calculer le perimetre d'un rectangle
     // Connaitre la longueur et la largeur
     // Connaitre le type de données pour les 2 dimensions
     // Connaitre le type de donnée qui sera produit à l'issue du traitement
 
-    static float calculDuPerimetre(float longueur,float largeur){
+    static float calculDuPerimetre(float longueur,float largeur)
+    {
         float perimetre=(longueur+largeur)*2;
         return perimetre;
     }
 
-    static float calculDeLaSurface(float longueur,float largeur){
+    static float calculDeLaSurface(float longueur,float largeur)
+    {
         return longueur*largeur;
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         float poids=5.6f;
-        //Rectangle 1
+
+        // Rectangle 1
+
         float longueur=500.5F;
         float largeur=250F;
 
@@ -27,7 +33,8 @@ public class ProgrammationProcedurale {
 
         System.out.printf("Surface 1 : %f\nPerimetre 1 : %f\n",surface,perimetre);
 
-        //Rectangle 2
+        // Rectangle 2
+
         float longueur2=33f;
         float largeur2=45f;
 
