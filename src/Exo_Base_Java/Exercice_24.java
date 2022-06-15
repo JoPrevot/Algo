@@ -1,4 +1,4 @@
-package POO.Exo_POO;
+package Exo_Base_Java;
 
 public class Exercice_24 {
 
