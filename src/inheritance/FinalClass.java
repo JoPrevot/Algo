@@ -14,6 +14,6 @@ class FinalClass extends ArrayList {
 
 }
 
-class MonString extends String {
-
-}
+//class MonString extends String {
+//
+//}
