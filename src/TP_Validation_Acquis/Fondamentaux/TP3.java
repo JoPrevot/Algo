@@ -14,7 +14,7 @@ public class TP3 {
 
         System.out.println("Veuillez rentrer un mot : ");
 
-        word = input.nextLine();
+        word = input.nextLine().toLowerCase();
 
         // Je crée une HashMap et je compte l'occurence des lettres pour le mot rentré
 
@@ -22,7 +22,7 @@ public class TP3 {
 
         for (int i = 0; i < word.length(); i++)
         {
-            char key = word.charAt(i);
+            var key = word.charAt(i);
 
             if (occurence.containsKey(key))
             {
@@ -42,13 +42,13 @@ public class TP3 {
 
         System.out.println("Veuillez saisir un second mot a comparer au premier : ");
 
-        wordToCompare = input.nextLine();
+        wordToCompare = input.nextLine().toLowerCase();
 
         HashMap <Character, Byte> occurence2 = new HashMap<>();
 
         for (int i = 0; i < wordToCompare.length(); i++)
         {
-            char key = wordToCompare.charAt(i);
+            var key = wordToCompare.charAt(i);
 
             if (occurence2.containsKey(key))
             {
