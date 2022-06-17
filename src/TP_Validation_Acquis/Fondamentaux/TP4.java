@@ -43,8 +43,6 @@ public class TP4 {
                 table[i] = Character.toUpperCase(table[i]);
             }
         }
-
         System.out.println(table);
-
     }
 }
