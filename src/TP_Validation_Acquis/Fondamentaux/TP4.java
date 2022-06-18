@@ -13,25 +13,6 @@ public class TP4 {
 
         char [] table = text.toCharArray();
 
-//        boolean space = true;
-//
-//        for (int i = 0; i < text.length(); i++)
-//        {
-//            if (Character.isLetter(table[i]))
-//            {
-//                if(space)
-//                {
-//                    table[i] = Character.toUpperCase(table[i]);
-//                    space = false;
-//                }
-//            }
-//            else
-//            {
-//                space = true;
-//            }
-//        }
-
-
         for (int i = 0; i < text.length()-1; i++)
         {
             if (table[i] == ' ')
