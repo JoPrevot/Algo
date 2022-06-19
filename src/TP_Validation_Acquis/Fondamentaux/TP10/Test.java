@@ -5,20 +5,33 @@ public class Test {
 
         Tirelire tirelire = new Tirelire(100);
 
+        System.out.println(tirelire.getSolde());
 
-//        System.out.println(tirelire.getSolde());
-//
-//        double montantTirelire = tirelire.getSolde();
+        double montantTirelire = tirelire.getSolde();
 
-        System.out.println(tirelire.afficher());
+        tirelire.afficher();
 
         tirelire.secouer();
 
-        tirelire.remplir(10);
+        tirelire.remplir(50);
 
         tirelire.vider();
 
-        System.out.println(tirelire.afficher());
+        tirelire.afficher();
+
+        tirelire.remplir(150);
+
+        System.out.println("");
+
+        tirelire.puiser(50);
+
+        System.out.println("");
+
+        System.out.println(tirelire.calculerSolde(150));
+
+        System.out.println(tirelire.calculerSolde(75));
+
+
 
 //        UseTirelire.secouer(tirelire.getMontant());
 
