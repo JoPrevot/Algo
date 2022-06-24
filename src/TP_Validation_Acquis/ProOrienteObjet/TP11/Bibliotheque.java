@@ -8,7 +8,8 @@ public class Bibliotheque {
 
     ArrayList<Exemplaire> listeExemplaire = new ArrayList<>();
 
-    public Bibliotheque(String nameBibl) {
+    public Bibliotheque(String nameBibl)
+    {
         this.nameBibl = nameBibl;
         System.out.printf("La bibliothèque %s est ouverte !",nameBibl);
     }
@@ -44,6 +45,7 @@ public class Bibliotheque {
     public ArrayList<Exemplaire> listerExemplaires (String langue)
     {
         ArrayList<Exemplaire> listeObtenue = new ArrayList<>();
+
         if (langue == "")
         {
             return listeExemplaire;

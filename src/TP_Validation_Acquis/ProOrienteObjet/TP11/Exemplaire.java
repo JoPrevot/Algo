@@ -10,7 +10,7 @@ public class Exemplaire {
     }
 
     public Exemplaire(Exemplaire exemplaire) {
-        referenceOeuvre = exemplaire.referenceOeuvre;
+        this.referenceOeuvre = exemplaire.referenceOeuvre;
         System.out.println("Copie d'un exemplaire de :" +exemplaire);
     }
 

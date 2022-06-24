@@ -5,10 +5,10 @@ public class Auteur {
     private String name;
     private boolean primed;
 
-    public Auteur(String name, boolean price)
+    public Auteur(String name, boolean primed)
     {
         this.name = name;
-        this.primed = price;
+        this.primed = primed;
     }
 
     public Auteur(String name)
@@ -21,7 +21,7 @@ public class Auteur {
         return name;
     }
 
-    public boolean isPrice()
+    public boolean isPrimed()
     {
         return primed;
     }
